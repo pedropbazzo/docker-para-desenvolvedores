@@ -30,7 +30,7 @@ Outro detalhe da boa prática: a aplicação deve exportar o serviço através d
 
 ```
 if __name__ == "__main__":
-  app.run(host="0.0.0.0", debug=True)
+  app.run(host="0.0.0.0", debug=True) 
 ```
 
 A porta 5000 pode ser utilizada para servir dados localmente em ambiente de desenvolvimento ou, através de proxy reverso, quando for migrada para produção, com nome de domínio adequado a aplicação em questão.
